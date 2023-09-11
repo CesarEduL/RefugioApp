@@ -57,9 +57,9 @@
             </div>
             </header>
     
-            <button type="button" class="btn btn-primary btn-lg" onclick="window.location.href = 'home.jsp'" style="margin-top: 10px;">Iniciar Sesión</button>
+            <button type="button" class="btn btn-primary btn-lg" onclick="window.location.href = 'login.jsp'" style="margin-top: 10px;">Iniciar Sesión</button>
             
-            <h1>Hello World!</h1>
+            <h1>Hello World !</h1>
 
         </div>
 

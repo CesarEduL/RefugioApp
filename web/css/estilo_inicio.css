@@ -1,0 +1,82 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(https://images.vexels.com/media/users/3/110878/raw/4adcc0eb7dff78af5f4a3bd8f623aa29-vector-eco-hojas-y-onda-verde.jpg);
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  height: 100vh;
+}
+
+.icon{
+  text-decoration: none;
+}
+.container {
+  width: 420px;
+  height: 470px;
+  background: #86c78b;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  border-radius: 50px
+}
+.container .avatar {
+  width: 200px;
+  height: 200px;
+  margin-top:-200px;
+}
+
+.title {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 25px;
+  color: #0c9787
+}
+
+.container h5 {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+  font-size: 16px;
+  color: #0c9787;
+}
+
+.container input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.container input[type="text"], .container input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #205729;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.container button {
+  border: none;
+  outline: none;
+  width: 200px;
+  height: 40px;
+  background: #40ac52;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.container button:hover {
+  cursor: pointer;
+  background: #205729;
+}
+
+.btn{
+  margin-bottom: 50px;
+}
